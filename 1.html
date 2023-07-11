@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="page1">
+        <p>Page 1</p>
+    </div><!--end div 1-->
+    <div id="page2" class="hidden">
+        <p>page 2</p>
+    </div><!--end div 1-->
+    <div id="page3" class="hidden">
+        <p>page 3</p>
+    </div><!--end div 2-->
+    <div id="page4" class="hidden">
+        <p>page 4</p>
+    </div><!--end div 3-->
+    <div id="page5" class="hidden">
+        <p>page 5</p>
+    </div><!--end div 4-->
+
+    <div class="container">
+        <div class="text-center">
+            <ul class="pagination pagination-lg">
+
+                <li><a href="javascript:void(0)" onclick="showPages('1')">1</a></li>
+                <li><a href="javascript:void(0)" onclick="showPages('2')">2</a></li>
+                <li><a href="javascript:void(0)" onclick="showPages('3')">3</a></li>
+                <li><a href="javascript:void(0)" onclick="showPages('4')">4</a></li>
+                <li><a href="javascript:void(0)" onclick="showPages('5')">5</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <script>
+        function showPages(id) {
+
+
+            var totalNumberOfPages = 5;
+            for (var i = 1; i <= totalNumberOfPages; i++) {
+
+                if (document.getElementById('page' + i)) {
+
+                    document.getElementById('page' + i).style.display = 'none';
+                }
+
+            }
+            if (document.getElementById('page' + id)) {
+
+                document.getElementById('page' + id).style.display = 'block';
+            }
+        };
+    </script>
+</body>
+
+</html>
