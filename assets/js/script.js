@@ -3,7 +3,7 @@ function goToPage() {
   window.location.href = "index.html"
 }
 
-// swiper2
+// swiper2 card-slider
 
 const swiper = new Swiper(".card-slider", {
   freeMode: true,
@@ -29,13 +29,43 @@ const swiper = new Swiper(".card-slider", {
   },
 });
 
-
-var swiper2 = new Swiper(".mySwiper", {
+// swiper mySwiper
+const swiper2 = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-}); 
+});
+
+// swiper my-cart
+const swiper3 = new Swiper(".my-cart", {
+  freeMode: true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    540: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 3,
+
+    },
+    1326: {
+      slidesPerView: 3,
+    },
+  },
+});
+
 
 // pegintion
 function showPages(id) {
@@ -44,15 +74,15 @@ function showPages(id) {
   var totalNumberOfPages = 5;
   for (var i = 1; i <= totalNumberOfPages; i++) {
 
-      if (document.getElementById('page' + i)) {
+    if (document.getElementById('page' + i)) {
 
-          document.getElementById('page' + i).style.display = 'none';
-      }
+      document.getElementById('page' + i).style.display = 'none';
+    }
 
   }
   if (document.getElementById('page' + id)) {
 
-      document.getElementById('page' + id).style.display = 'block';
+    document.getElementById('page' + id).style.display = 'block';
   }
 };
 // End pagintion
