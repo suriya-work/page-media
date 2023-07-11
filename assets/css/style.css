@@ -101,14 +101,14 @@ body {
     font-size: 18px;
 }
 
+/* pagintion */
+
+.hidden{
+    display: none;
+}
+
 
 /* video music  */
-.player {
-    width: 95%;
-    max-width: 700px;
-    margin: auto;
-
-}
 
 .video-player {
     position: relative;
@@ -228,6 +228,14 @@ footer a {
     .page-svg {
         display: flex;
         justify-content: center;
+    }
+
+    .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-button-prev {
+        display: none;
     }
 
 }
