@@ -2,52 +2,6 @@
 function goToPage() {
   window.location.href = "index.html"
 }
-// pagainttion
-
-const link = document.getElementsByClassName('link');
-const currentValue = 1;
-
-function activeLink() {
-  for (l of link) {
-    l.classList.remove('active-numb');
-  }
-
-  e.target.classList.add('active-numb');
-  currentValue = e.target.value;
-}
-
-function backBtn() {
-  if (currentValue > 1) {
-    for (l of link) {
-      l.classList.remove('active-numb');
-    }
-    currentValue--;
-    link[currentValue - 1].classList.add('active-numb');
-  }
-}
-
-function nextBtn() {
-  if (currentValue < 6) {
-    for (l of link) {
-      l.classList.remove('active-numb');
-    }
-    currentValue++;
-    link[currentValue - 1].classList.add('active-numb');
-  }
-}
-// swiper1
-// const swiper1 = new Swiper(".swiper-cart", {
-//   slidesPerView: 1,
-//   // grid: {
-//   //   rows:1,
-//   // },
-//   spaceBetween: 20,
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-// });
-
 
 // swiper2
 
@@ -74,6 +28,34 @@ const swiper = new Swiper(".card-slider", {
     },
   },
 });
+
+
+var swiper2 = new Swiper(".mySwiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+}); 
+
+// pegintion
+function showPages(id) {
+
+
+  var totalNumberOfPages = 5;
+  for (var i = 1; i <= totalNumberOfPages; i++) {
+
+      if (document.getElementById('page' + i)) {
+
+          document.getElementById('page' + i).style.display = 'none';
+      }
+
+  }
+  if (document.getElementById('page' + id)) {
+
+      document.getElementById('page' + id).style.display = 'block';
+  }
+};
+// End pagintion
 
 // video player
 
