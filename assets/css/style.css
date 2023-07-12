@@ -52,6 +52,12 @@ body {
     background: #0878AF;
 }
 
+/* accoridion */
+.accordion-header {
+    border-radius: 8px;
+    background: var(--20-gray, #EEF1F2);
+}
+
 /* pagination */
 .active-numb {
     color: #000;
@@ -103,7 +109,7 @@ body {
 
 /* pagintion */
 
-.hidden{
+.hidden {
     display: none;
 }
 
