@@ -12,7 +12,7 @@
 @font-face {
     font-family: 'Kalameh';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     src: url('../fonts/kalameh/TTF/KalamehFaNum-Black.ttf') format('ttf'),
         url('../fonts/kalameh/woff/KalamehWebFaNum-Black.woff') format('woff'),
         url('../fonts/kalameh/woff2/KalamehWebFaNum-Black.woff2') format('woff2');
@@ -43,7 +43,7 @@
 @font-face {
     font-family: 'Peyda';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     src: url('../fonts/Peyda/eot/PeydaWeb-Black.eot') format('eot'),
         url('../fonts/Peyda/ttf/Peyda-Black.ttf') format('ttf'),
         url('../fonts/Peyda/woff/PeydaWeb-Black.woff') format('woff'),

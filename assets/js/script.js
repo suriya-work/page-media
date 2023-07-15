@@ -1,6 +1,8 @@
 // function for arrow
 function goToPage() {
   window.location.href = "index.html"
+  window.location.href = "news.html"
+  window.location.href = "move.html"
 }
 
 // swiper2 card-slider
