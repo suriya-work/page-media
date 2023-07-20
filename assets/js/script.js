@@ -1,9 +1,14 @@
 // function for arrow
 function goToPage() {
   window.location.href = "index.html"
+}
+function goToPageNews() {
   window.location.href = "news.html"
+}
+function goToPageMove() {
   window.location.href = "move.html"
 }
+
 
 // swiper2 card-slider
 
@@ -20,13 +25,13 @@ const swiper = new Swiper(".card-slider", {
       slidesPerView: 2,
     },
     540: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
     768: {
-      slidesPerView: 5,
+      slidesPerView: 6,
     },
     1200: {
-      slidesPerView: 6,
+      slidesPerView: 9,
     },
   },
 });
