@@ -61,6 +61,34 @@ const swiper3 = new Swiper(".my-cart", {
     },
   },
 });
+// my-article alide
+const swiper4 = new Swiper(".my-article", {
+  freeMode: true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    540: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 3,
+
+    },
+    1326: {
+      slidesPerView: 3,
+    },
+  },
+});
 
 
 // pegintion

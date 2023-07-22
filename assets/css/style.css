@@ -22,7 +22,7 @@ html {
 /* SEARCH */
 
 .header {
-    background-color: #ADDDE7;
+    background-color: #ADDDE7 ;
     /* opacity: 0.8; */
     height: 460px;
     border-bottom-left-radius: 80px;
@@ -201,6 +201,10 @@ html {
     background: #011C29;
 }
 
+.comment-question {
+    margin-right: 8%;
+}
+
 /* footer */
 
 footer h5 {
@@ -312,6 +316,10 @@ footer a {
     .text-wrapp {
         font-size: 10px !important;
     }
+
+    .accordion-button {
+        font-size: 12px;
+    }
 }
 
 @media(max-width:768px) {
@@ -329,6 +337,15 @@ footer a {
 }
 
 @media(max-width:1000px) {
+    .accordion-svg {
+        width: 100%;
+        margin-right: 20% !important;
+    }
+   
+    .accordion-left {
+        margin-top: 20px;
+    }
+
     .swiper-button-next {
         display: none;
     }
