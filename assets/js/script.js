@@ -1,14 +1,3 @@
-// function for arrow
-function goToPage() {
-  window.location.href = "index.html"
-}
-function goToPageNews() {
-  window.location.href = "news.html"
-}
-function goToPageMove() {
-  window.location.href = "move.html"
-}
-
 
 // swiper2 card-slider
 
