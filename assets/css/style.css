@@ -53,8 +53,17 @@ html {
     text-align: center;
     background: #0878AF;
 }
-
-
+.input-group {
+    position: relative;
+}
+.input-group input::placeholder {
+    color: #b5b2b2;
+    font-size: 16px;
+}
+.input-group-text {
+    position: absolute;
+    left: 15%;
+}
 /* accoridion */
 .accordion-header {
     border-radius: 8px;

@@ -33,6 +33,7 @@ const swiper2 = new Swiper(".mySwiper", {
   },
 });
 
+
 // swiper my-cart
 const swiper3 = new Swiper(".my-cart", {
   freeMode: true,
@@ -87,6 +88,13 @@ const swiper4 = new Swiper(".my-article", {
     1326: {
       slidesPerView: 3,
     },
+  },
+});
+// myNews-save
+const swiper5 = new Swiper(".myNews", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 
