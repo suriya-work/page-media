@@ -101,9 +101,8 @@ const swiper5 = new Swiper(".myNews", {
 
 // pegintion
 function showPages(id) {
-
-
   var totalNumberOfPages = 5;
+
   for (var i = 1; i <= totalNumberOfPages; i++) {
 
     if (document.getElementById('page' + i)) {
@@ -111,11 +110,13 @@ function showPages(id) {
       document.getElementById('page' + i).style.display = 'none';
     }
 
+
   }
   if (document.getElementById('page' + id)) {
 
     document.getElementById('page' + id).style.display = 'block';
   }
+
 };
 // End pagintion
 
