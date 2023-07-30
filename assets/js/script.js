@@ -97,7 +97,14 @@ const swiper5 = new Swiper(".myNews", {
     prevEl: ".swiper-button-prev",
   },
 });
-
+// myNote
+const swiper6 = new Swiper(".myNote", {
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
 
 // pegintion
 function showPages(id) {
