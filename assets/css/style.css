@@ -256,7 +256,19 @@ html {
     background: linear-gradient(136deg, #003D5C 0%, #024D6D 46.35%, #003D5C 100%);
 
 }
+.guide-container {
+    position: relative;
+}
+.images-guide {
+    position: absolute;
+    top: 12%;
+    /* right: 0; */
+    left: 0;
+}
 
+.guide-link {
+    padding-right: 10rem;
+}
 /* footer */
 
 footer h5 {
