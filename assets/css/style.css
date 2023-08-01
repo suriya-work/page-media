@@ -244,7 +244,8 @@ html {
     background: var(--white, #fbfcfc);
 
 }
-.container-cart span{
+
+.container-cart span {
     font-size: 14px !important;
 }
 
@@ -259,9 +260,11 @@ html {
     background: linear-gradient(136deg, #003D5C 0%, #024D6D 46.35%, #003D5C 100%);
 
 }
+
 .guide-container {
     position: relative;
 }
+
 .images-guide {
     position: absolute;
     top: 12%;
@@ -272,6 +275,7 @@ html {
 .guide-link {
     padding-right: 10rem;
 }
+
 /* footer */
 
 footer h5 {
@@ -405,7 +409,7 @@ footer a {
     .banner {
         display: none;
     }
-    
+
     .swiper-button-next {
         display: none;
     }
@@ -423,6 +427,18 @@ footer a {
 
     .accordion-left {
         margin-top: 20px;
+    }
+
+    .swiper-button-next {
+        /* margin: 2px; */
+        margin-left: 2px;
+    }
+
+    .swiper-button-prev {
+        margin-left: 2px;
+
+        /* margin: 2px; */
+
     }
 
 }

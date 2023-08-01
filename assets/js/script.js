@@ -65,6 +65,7 @@ const swiper3 = new Swiper(".my-cart", {
       slidesPerView: 3,
     },
   },
+
 });
 // my-article alide
 const swiper4 = new Swiper(".my-article", {
@@ -105,6 +106,14 @@ const swiper5 = new Swiper(".myNews", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+   
+    820 : {
+      slidesPerView: 1,
+
+    },
+  }
+
 });
 
 // myNote
