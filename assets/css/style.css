@@ -241,8 +241,11 @@ html {
 }
 
 .bg-text {
-    background: var(--white, #e3e4e7);
+    background: var(--white, #fbfcfc);
 
+}
+.container-cart span{
+    font-size: 14px !important;
 }
 
 .bg-svg {

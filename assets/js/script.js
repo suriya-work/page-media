@@ -47,8 +47,12 @@ const swiper3 = new Swiper(".my-cart", {
     320: {
       slidesPerView: 1,
     },
+    912 : {
+      slidesPerView: 2,
+
+    },
     540: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     768: {
       slidesPerView: 1,
@@ -75,11 +79,15 @@ const swiper4 = new Swiper(".my-article", {
     320: {
       slidesPerView: 1,
     },
+    912 : {
+      slidesPerView: 2,
+
+    },
     540: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     768: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     1024: {
       slidesPerView: 3,
@@ -89,6 +97,7 @@ const swiper4 = new Swiper(".my-article", {
       slidesPerView: 3,
     },
   },
+
 });
 // myNews-save
 const swiper5 = new Swiper(".myNews", {
@@ -97,6 +106,7 @@ const swiper5 = new Swiper(".myNews", {
     prevEl: ".swiper-button-prev",
   },
 });
+
 // myNote
 const swiper6 = new Swiper(".myNote", {
   pagination: {
