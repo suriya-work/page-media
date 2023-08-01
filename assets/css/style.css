@@ -405,6 +405,14 @@ footer a {
     .banner {
         display: none;
     }
+    
+    .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-button-prev {
+        display: none;
+    }
 }
 
 @media(max-width:1000px) {
@@ -417,11 +425,4 @@ footer a {
         margin-top: 20px;
     }
 
-    .swiper-button-next {
-        display: none;
-    }
-
-    .swiper-button-prev {
-        display: none;
-    }
 }

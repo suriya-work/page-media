@@ -54,8 +54,8 @@ const swiper3 = new Swiper(".my-cart", {
     540: {
       slidesPerView: 2,
     },
-    768: {
-      slidesPerView: 1,
+    820: {
+      slidesPerView: 2,
     },
     1024: {
       slidesPerView: 3,
@@ -86,7 +86,7 @@ const swiper4 = new Swiper(".my-article", {
     540: {
       slidesPerView: 2,
     },
-    768: {
+    820: {
       slidesPerView: 2,
     },
     1024: {
